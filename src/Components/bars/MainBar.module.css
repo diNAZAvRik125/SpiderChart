@@ -1,0 +1,49 @@
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem;
+    box-sizing: border-box;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    color: #333333;
+}
+
+.link:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+
+.active .image{
+    background: var(--main-green-color);
+    opacity: 1;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #333333;
+    opacity: 0.5;
+    border-radius: 0.625rem;
+    margin-right: 1.125rem;
+}
+
+.blocked_link{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    color: grey;
+    margin-bottom: 1.25rem;
+}

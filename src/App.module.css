@@ -1,0 +1,126 @@
+.TextUpStile{
+    text-align: left;
+    height: 2rem;
+    font-size: 1.4rem;
+    margin: 1.5rem 1rem 0.5rem 2.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.TextUpStileSelfTest{
+    text-align: left;
+    height: 4rem;
+    font-size: 2.4rem;
+    margin: 1.5rem 1rem 0.5rem 2.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.TextDouwstile{
+    text-align: left;
+    height: 24px;
+    font-size: 1.2rem;
+    margin: 0.2rem 1rem 0.5rem 2.75rem;
+}
+
+.small_btn{
+    border-radius: 0.625rem;
+    justify-content: center;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 3.5rem;
+    background: #0070BA;
+    border: 0;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 102%;
+    color: white;
+    margin: 2rem 0rem 3rem 26rem;
+    display: block;
+}
+
+.quiz {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.quiz.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.quizQuastions{
+    width: 65vw;
+    margin: 0.1% 0 0 30%;
+    position: fixed;
+    border-radius: 0.625rem;
+    box-shadow: 0rem 4rem 64rem 0rem rgba(19, 23, 61, 0.12);
+}
+
+.quiz__answers {
+    padding: 20rem;
+    border-radius: 12rem;
+    background-color: white;
+    margin: 0rem 0rem 0rem 0rem;
+    height: 40vh;
+    width: 40vw;
+    transform: scale(0);
+    box-shadow: 0px 4px 64px 0px rgba(19, 23, 61, 0.12);
+}
+
+.quiz__answers.active {
+    transform: scale(1);
+}
+
+.Quiz-Close-button  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    height: 3.5rem;
+    border: 0;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 102%;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    border-radius: 0.625rem;
+    background-color: #0070BA;
+    border-color: #0070BA;
+    font-sise: 2rem;
+    box-shadow: 0px 4px 64px 0px rgba(19, 23, 61, 0.12);
+}
+
+.headerBlue{
+    background:#0070BA;
+    color: white;
+    /*padding-left: 3rem;*/
+}
+
+.gazpromLogo{
+    padding-top: 0.25rem;
+    padding-left: 3rem;
+    padding-bottom: 0.25rem;
+}
+
+.todoStyle{
+    list-style: none;
+}
+
+.cent{
+    justify-content: center;
+    display: flex;
+}

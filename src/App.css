@@ -13,21 +13,85 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonNext {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 16px 26px;
+
+  position: absolute;
+  width: 111px;
+  height: 56px;
+  left: calc(50% - 111px/2 + 0.5px);
+  top: calc(50% - 56px/2 + 211.5px);
+
+  /* Azure blue */
+
+  background: #0070BA;
+  border-radius: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/*.TextUpStile{*/
+/*  position: absolute;*/
+/*  width: 688px;*/
+/*  height: 24px;*/
+/*  left: 40px;*/
+/*  top: 46px;*/
+
+/*  font-family: 'Roboto';*/
+/*  font-style: normal;*/
+/*  font-weight: 600;*/
+/*  font-size: 20px;*/
+/*  line-height: 24px;*/
+/*  !* identical to box height, or 120% *!*/
+
+
+/*  color: #333333;*/
+/*}*/
+
+/*.downTextStyle{*/
+/*  !*position: absolute;*!*/
+/*  !*width: 752px;*!*/
+/*  !*height: 24px;*!*/
+/*  !*left: 400px;*!*/
+/*  !*top: 95px;*!*/
+
+/*  font-family: 'Roboto';*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  font-size: 20px;*/
+/*  line-height: 24px;*/
+/*  !* identical to box height, or 120% *!*/
+
+
+/*  color: #333333;*/
+/*}*/
+
+.todoStyle{
+  list-style: none;
 }
 
+.headerBlue{
+  background:#0070BA;
+  color: white;
+}
+
+.Otstup{
+  margin-left: 5px;
+}
+
+.Todo{
+  next-align: left;
+  font-weight: 500;
+  pudding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 50px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

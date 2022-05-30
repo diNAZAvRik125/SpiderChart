@@ -1,0 +1,53 @@
+.hint{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 0.875rem;
+    color: #333333;
+    line-height: 130%;
+}
+
+/*.title{*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    display: block;*/
+/*    font-size: 2.25rem;*/
+/*    color: #333333;*/
+/*    font-weight: 600;*/
+/*    line-height: 89%;*/
+/*}*/
+
+.subtitle{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 2.25rem;
+    color: #333333;
+    line-height: 85%;
+    font-weight: 600;
+    margin-top: 4.375rem;
+}
+
+.main{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 1.25rem;
+    color: #333333;
+    line-height: 102%;
+    font-weight: 400;
+}
+
+.mainSemibold{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 1.25rem;
+    color: #333333;
+    line-height: 102%;
+    font-weight: 600;
+}
+
+.buttonText{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 102%;
+    font-weight: 600;
+}
