@@ -1,0 +1,17 @@
+.small_btn{
+    border-radius: 0.625rem;
+    justify-content: center;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 3.5rem;
+    background: var(--main-azure-blue-color);
+    border: 0;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 102%;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}

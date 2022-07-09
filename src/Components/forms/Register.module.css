@@ -1,0 +1,102 @@
+.containerAuth {
+    max-width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 3.333rem;
+}
+
+.block:not(:first-child) {
+    margin-top: 3.333rem;
+}
+
+.block {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.blockTitle {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 1.25rem;
+    margin-block-start: 1.875rem;
+    margin-block-end: 1.25rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 600;
+}
+
+.block_captcha {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.captcha_img {
+    margin-top: 1.3rem;
+    width: 6rem;
+    height: 3.2rem;
+    padding-right: 1rem;
+}
+
+.reload_img {
+    height: 1.7rem;
+    width: 1.7rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: auto;
+}
+
+
+.btn {
+    margin-top: 1.3rem;
+    background: var(--main-azure-blue-color);
+    border-radius: 0.625rem;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.0625rem;
+    line-height: 150%;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.btn_register {
+    background: #ac1a1a;
+    color: #fff;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.links{
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.links a{*/
+/*    color: var(--sub-text-color);*/
+/*    margin-top: 0.5rem;*/
+/*}*/
+
+/*.links a:first-child{*/
+/*    color: var(--sub-text-color);*/
+/*    margin-top: 1rem;*/
+/*}*/
+
+.errorMessage {
+    color: red;
+    font-size: 1.0625rem;
+}
